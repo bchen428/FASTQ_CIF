@@ -8,6 +8,7 @@ Tested/developed in Ubuntu 20.04, compiled with gcc. Uses getline() so likely wi
 ./sequenceintensity SEQFILE COORDFILE locsdir cifdir index
 
 For instance, to get the intensity of nucleotide #4 (the 'A' in CCCATTGG) where the sequences are stored in 'sequencefile.txt', the coordinates are stored in 'coordinatefile.txt', the LOCS files are stored in directory 'LOCS', and the CIF files are stored in directory 'CIF':
+
 ./sequenceintensity sequencefile.txt coordinatefile.txt LOCS CIF 4
 
 # Instructions
