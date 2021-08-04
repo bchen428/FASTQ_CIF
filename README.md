@@ -27,3 +27,7 @@ Where OUTFILE is the output from the sequenceintensity script and the index is t
 
 Unfortunately, I am unable to upload the files we used for testing this (as the .locs and .cif files massively exceed the upload limit of github).
 If you require these to confirm the effectiveness of this code, please contact: bchen@aptamatrix.com
+
+# Runtime
+
+The runtime is bounded by the runtime of quick sort. This gives it a runtime of O(nlogn) on average and O(n^2) in the worst case.
